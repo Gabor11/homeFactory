@@ -35,9 +35,9 @@ public class Maker {
             mug.prepareMug();
 
             System.out.println(mug.getDescription() + " order completed.");
-            System.out.println("Cost: $" + mug.cost());
+            System.out.print("Cost: $" + mug.cost());
         }
-        System.out.println("");
+//        System.out.println("");
     }
 
     public Tshirt decorate(String[] screenPrintingList, String[] inkjetPrintingList){
