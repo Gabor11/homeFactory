@@ -20,9 +20,7 @@ public abstract class HandWrittenMug implements Mug {
         System.out.println("Preparing special pen for ceramics");
     }
 
-    public void writeContent(){
-        System.out.println("Carefully write or draw content on the mug");
-    }
+    public abstract void writeContent();
 
     public void bakingTheMug(){
         System.out.println("Put it into the oven for a while");

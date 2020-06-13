@@ -12,8 +12,10 @@ public class MugFactory {
         else if(mugType.equals("PicturedMug")){
             return new PicturedMug();
         }
-        else if(mugType.equals("ArtisticMug")){
+        else if(mugType.equals("ArtisticMug")) {
             return new ArtisticMug();
+        } else if (mugType.equals("LogoMug")) {
+            return new LogoMug();
         }
         return null;
     }

@@ -16,9 +16,7 @@ public abstract class PrintedMug implements Mug {
         System.out.println("Preparing printer");
     }
 
-    public void printContent(){
-        System.out.println("Printing content");
-    }
+    public abstract void printContent();
 
     public void bakeTheMug(){
         System.out.println("Put it into the oven for a while");

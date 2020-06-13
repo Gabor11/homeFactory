@@ -10,4 +10,9 @@ public class ArtisticMug extends HandWrittenMug {
     public String getDescription() {
         return "ArtisticMug";
     }
+
+    @Override
+    public void writeContent() {
+        System.out.println("Carefully draw content on the mug");
+    }
 }

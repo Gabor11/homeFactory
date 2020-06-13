@@ -115,6 +115,7 @@ public class Client {
                     System.out.println("(1) Named Mug --- 4$");
                     System.out.println("(2) Artistic Mug --- 6.5$");
                     System.out.println("(3) Pictured Mug --- 5.5$");
+                    System.out.println("(4) Logo Mug --- 4.5$");
                     System.out.println("(Other) I finished the mug selection.");
                     int drink = scanBeverage.nextInt();
                     if(drink==1){
@@ -128,6 +129,10 @@ public class Client {
                     else if(drink==3){
                         mugType ="PicturedMug";
                         System.out.println("*** Pictured Mug is chosen.");
+                    }
+                    else if(drink==4){
+                        mugType ="LogoMug";
+                        System.out.println("*** Logo Mug is chosen.");
                     }
                     else{
                         break;

@@ -16,4 +16,9 @@ public class PicturedMug extends PrintedMug {
     public String getDescription() {
         return "PicturedMug";
     }
+
+    @Override
+    public void printContent() {
+        System.out.println("Printing colored picture on the mug");
+    }
 }
